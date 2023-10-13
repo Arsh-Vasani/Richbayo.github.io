@@ -223,8 +223,6 @@ section:first-of-type {
     display: flex;
     align-items: center;
     gap: 28px;
-    width: 100%;
-    overflow-x: scroll;
 }
 
 .main-content .brand-section .content .brand-part::-webkit-scrollbar {
@@ -746,11 +744,6 @@ section:first-of-type {
 /* responsive design start */
 @media (max-width: 1660px) {
 
-    .header .content .navbar,
-    .header .content .navbar .navbar-collapse {
-        gap: 82px;
-    }
-
     .main-content .banner-section .content .right-part .image-part {
         margin-left: -35%;
         margin-top: -10%;
@@ -768,7 +761,7 @@ section:first-of-type {
 
 @media (max-width: 1550px) {
     .header .content .navbar .navbar-collapse .navbar-nav {
-        gap: 25px;
+        gap: 20px;
     }
 
     .main-content .banner-section .content .right-part .image-part {
@@ -1010,6 +1003,11 @@ section:first-of-type {
 
     section:first-of-type {
         margin: 30px 0 100px;
+    }
+
+    .main-content .brand-section .content .brand-part {
+        width: 100%;
+        overflow-x: scroll;
     }
 }
 
