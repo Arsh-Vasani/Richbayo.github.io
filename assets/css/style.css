@@ -187,12 +187,12 @@ section:first-of-type {
 }
 
 .main-content .banner-section .content .right-part .image-part {
-    margin-left: -50%;
+    margin-left: -40%;
     margin-top: -10%;
 }
 
 .main-content .banner-section .content .right-part .image-part img {
-    width: 900px;
+    width: 800px;
     height: 600px;
 }
 
