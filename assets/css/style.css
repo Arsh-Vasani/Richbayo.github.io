@@ -470,6 +470,11 @@ section:first-of-type {
     line-height: normal;
 }
 
+.main-content .unique-section .content .reasons-part .nav-pills .nav-item .nav-link:hover {
+    color: #cfed4c;
+    transition: 0.3s;
+}
+
 .main-content .unique-section .content .reasons-part .nav-pills .nav-item .nav-link.active {
     color: #000;
     font-size: 18px;
