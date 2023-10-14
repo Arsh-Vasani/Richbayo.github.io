@@ -1505,7 +1505,7 @@ section:first-of-type {
 
     .main-content .testimonial-section .content .testimonial-slider .owl-stage-outer .owl-stage .owl-item.active.center .image-part img,
     .main-content .testimonial-section .content .testimonial-slider .owl-stage-outer .owl-stage .owl-item.active.center .item .box {
-        transition: 0.5s;
+        transition: 0.3s;
     }
 }
 
