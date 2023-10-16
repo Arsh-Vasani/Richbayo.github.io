@@ -1435,6 +1435,15 @@ section:first-of-type {
     .main-content .testimonial-section .content .testimonial-slider {
         margin-top: 0px;
     }
+
+    .main-content .testimonial-section .content .testimonial-slider .owl-stage-outer .owl-stage .owl-item .item .box {
+        scale: unset;
+        display: none;
+    }
+
+    .main-content .testimonial-section .content .testimonial-slider .owl-stage-outer .owl-stage .owl-item.active.center .item .box {
+        display: flex;
+    }
 }
 
 @media (max-width: 767px) {
