@@ -685,6 +685,8 @@ section:first-of-type {
     justify-content: center;
 }
 
+.main-content .services-section .content .services-part.mobile .service-carousel .owl-nav .owl-prev:focus-visible,
+.main-content .services-section .content .services-part.mobile .service-carousel .owl-nav .owl-next:focus-visible,
 .main-content .testimonial-section .content .testimonial-slider .owl-nav .owl-prev:focus-visible,
 .main-content .testimonial-section .content .testimonial-slider .owl-nav .owl-next:focus-visible {
     outline: 0;
